@@ -16,6 +16,12 @@ Copy `elixir.lang` into one of these directories:
 
 Replace 'X.X' with your version of GtkSourceView.
 
+If nothing works try using this path: 
+
+`/usr/share/libgedit-gtksourceview-300/language-specs/`
+
+That works at least in Archlinux, where `gedit` uses `libgedit-gtksourceview` package.
+
 _gedit_ and other tools using GtkSourceView should then show Elixir syntax highlighting.
 
 Versions for older Elixir releases can be found in `old_versions`
